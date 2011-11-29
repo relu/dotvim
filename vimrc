@@ -52,6 +52,8 @@ set tabstop=4
 set shiftwidth=4
 set textwidth=72
 
+set t_Co=256			" Set terminal colors to 256
+
 let tlist_css_settings='css;s:Selectors'
 
 " Automatically remove trailing spaces
