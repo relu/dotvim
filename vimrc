@@ -23,6 +23,8 @@ set number
 syntax on
 filetype plugin indent on
 
+set noerrorbells visualbell t_vb=	" Disabled bells
+
 if has("autocmd")
         au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | end 
 endif
