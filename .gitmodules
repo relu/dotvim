@@ -22,3 +22,6 @@
 [submodule "bundle/less"]
 	path = bundle/less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "bundle/haml"]
+	path = bundle/haml
+	url = https://github.com/tpope/vim-haml.git
