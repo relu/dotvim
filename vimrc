@@ -74,6 +74,9 @@ let tlist_css_settings='css;s:Selectors'
 " Automatically remove trailing spaces
 autocmd FileType php,js,css autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 
+" Nginx syntax highlighting
+autocmd BufRead,BufNewFile /etc/nginx/* set ft=nginx 
+
 " Easily set current directory to current file
 map ,cd :cd %:p:h<CR>:pwd<CR>
 
